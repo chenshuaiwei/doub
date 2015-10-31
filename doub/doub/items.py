@@ -7,8 +7,11 @@
 
 import scrapy
 
-
 class DoubItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    name = scrapy.Field() #电影名称
+    rate = scrapy.Field() #豆瓣评分
+    seen = scrapy.Field() #看过的人数
+    imdb = scrapy.Field() #imdb链接
+    #pass
+
